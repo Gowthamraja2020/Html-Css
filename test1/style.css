@@ -1,0 +1,536 @@
+* body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+#header{
+  background-color: white;
+    overflow: hidden;
+    margin: 0px;
+  
+    width: 100%;
+   
+  
+     position: fixed;
+     top:0;
+    display: flex;
+    justify-content: flex-end;
+    box-shadow:0 3px 6px #00000029;
+  }
+  #header ul li{
+       list-style: none;
+       display: inline-block;
+  
+  }
+  #header  a{
+       padding: 5px 15px;
+       color: black;
+       text-decoration: none;
+       font-size: 20px;
+       margin-right: 30px;
+       font-weight: 700;
+       font-family:Playfair Display, ;
+  }
+  
+  #header a:hover{
+       color: goldenrod;
+       border-bottom: 5px solid goldenrod;
+  }
+  .cart {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: none;
+    color: black;
+  
+    margin-top: 0px;
+    font-size: 25px;
+  }
+  .badge {
+    position: absolute;
+    top: 19px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background-color: goldenrod;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+  }
+  #header ul li .pro{
+       border-radius: 50%;
+       margin-bottom: -5px;
+  }
+.submain {
+  display: flex;
+  align-items: center;
+  margin-top: 200px;
+}
+.submain .char {
+  border-radius: 50%;
+  width: 100px;
+  height: 90px;
+  margin-left: 30px;
+  margin-top: 10px;
+  padding: 20px 25px;
+  
+}
+.details {
+  line-height: 10px;
+}
+.details h1 {
+  font-family: Playfair Display, serif;
+  font-size: 27px;
+  font-weight: 550px;
+  letter-spacing: 0.36;
+  list-style: clear-both;
+}
+.details h5 {
+  font-size: 17px;
+  color: gray;
+  font-family: Playfair Display, serif;
+}
+#navlist {
+  background-color: #f4f5f0;
+  position: static;
+  width: 100%;
+  padding: 20px 35px;
+  position: sticky;
+  top:80px;
+ 
+ 
+ 
+}
+
+#navlist a {
+  padding: 20px 25px;
+  color: black;
+  text-decoration: black;
+  font-weight: 550;
+  font-size: 23px;
+  display: inline;
+  font-family: Playfair Display, serif;
+}
+#navlist-right {
+  float: right;
+  margin-right: 200px;
+}
+#navlist a:hover {
+  color: goldenrod;
+  border-bottom: 5px solid goldenrod;
+}
+#navlist-right div {
+  display: inline-flex;
+  word-spacing: 10px;
+}
+#navlist-right div i {
+  color: whitesmoke;
+  border-radius: 50%;
+  background-color: goldenrod;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  margin-right: 10px;
+}
+#navlist-right div h3 {
+  margin-top: 0px;
+  font-size: 20px;
+  font-family: Georgia, serif;
+}
+#navlist-right div p span.special {
+  font-weight: bold;
+  margin-top: 0px;
+}
+#navlist-right div p {
+  font-family: Georgia, serif;
+  margin-top: 0px;
+  font-size: 20px;
+}
+#navlist .virtual:hover{
+  color: goldenrod;
+  border-bottom: 5px solid goldenrod;
+}
+.artist:hover{
+  color: goldenrod;
+  border-bottom: 5px solid goldenrod;
+
+}
+
+#about-text h1 {
+  font-family: Merriweather, serif;
+  font-size: 35px;
+  left: 500px;
+  font-weight: 300px;
+  text-align: center;
+}
+#dropdown-items{
+  display: none;
+}
+ #dropdown-items {
+  position: absolute;
+  right: 0px;
+  width: 300px;
+  padding: 60px 70px;
+  background-color: #ffffff;
+  margin-right: 25px;
+  margin-top: 100px;
+  box-shadow: 0 3px 6px #00000029;
+  display: flex;
+}
+#about-text p {
+  overflow: hidden;
+  padding: 20px 20px;
+  line-height: 1.7;
+  font-weight: 900;
+
+  color: black;
+  font-family: "Crimson Text", serif;
+  font-size: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+ .square {
+  height: 100px;
+  width: 170px;
+  background-color: #86775f;
+  margin-top: -45px;
+  margin-left: -50px;
+}
+ .square i {
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  height: 100px;
+  margin-top: 40px;
+  margin-left: 70px;
+}
+ .square i {
+  background-color: #9b8f55;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+#dropdown-items h2 {
+  margin-top: -50px;
+  margin-left: 20px;
+}
+
+#dropdown-items h3 {
+  margin-top: -10px;
+  margin-left: 20px;
+  color: #bbada1;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#dropdown-items hr {
+  width: 100%;
+  margin-top: 10px;
+  margin-left: 20px;
+}
+#dropdown-items h4 {
+  margin-top: -10px;
+  margin-left: 20px;
+  color: gray;
+  font-family: Georgia, serif;
+}
+
+
+
+
+.balm{
+  display: flex;
+  
+}
+.card{
+   background:white;
+   width: 500px;
+   height: 400px;
+   margin: 10px;
+   border:1px solid red;
+}
+.card-image{
+  background-color: violet;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  
+}
+.art{
+  background-image: url('./img/art.jpg');
+}
+.card button{
+  background-color: goldenrod;
+  color: black;
+  padding:15px 40px;
+  text-align: center;
+  margin:50px 0px;
+  border: 0;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+.card div h5{
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50%;
+  
+
+}
+.card div h6{
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 50%;
+  font-weight: bold;
+}
+.card div h3{
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 50%;
+  font-weight: bold;
+}
+
+.card div h4{
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 50%;
+  font-weight: bold;
+  font-family:  Georgia, serif;
+}
+
+
+
+.card div  right{
+  float: right;
+
+}
+
+
+
+
+.submenu{
+  display: flex;
+  background-color: whitesmoke;
+
+}
+.card{
+   background:white;
+   width: 300px;
+   height: 400px;
+   margin: 35px;
+   border:1px solid red;
+   margin-top: 100px;
+
+}
+.card-image{
+  background-color: violet;
+  height: 150px;
+  margin-bottom: 15px;
+  background-size: cover;
+  
+}
+.art{
+  background-image: url('./img/art.jpg');
+}
+
+.card button{
+  background-color: goldenrod;
+  color: black;
+  padding:15px 20px;
+  text-align: center;
+  margin:20px 50px;
+  border: 0;
+  font-size: 15px;
+  font-family: sans-serif;
+  font-weight: 550;
+}
+.card div h5{
+  text-align: center;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 50%;
+  
+
+}
+.card div h6{
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 50%;
+  font-weight: bold;
+}
+.card div h3{
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 50%;
+  font-weight: bold;
+}
+
+.card div h4{
+  text-align: center;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 50%;
+  font-weight: bold;
+  font-family:  Georgia, serif;
+}
+.footer{
+  background-color: rgb(1, 1, 26);
+  position: relative;
+  width: 100%;
+  height: 500px;
+  position: absolute;
+}
+.browsebutton{
+  text-align: center;
+color:white;
+}
+.browsebtn{
+  padding:20px 95px;
+  margin-top: 20px;
+  background-color: goldenrod;
+  border: none;
+}
+.top{
+  border-bottom: 1px  solid goldenrod;
+}
+
+.container{
+  font-size: 20px;
+  font-family: Playfair Display,;
+
+}
+.top{
+  border-bottom: 1px  solid goldenrod;
+}
+.footer-section{
+  display: flex;
+  width: 80%;
+  margin-left: 5em;
+  color:white;
+
+}
+.section1{
+  font-size: 25px;
+  font-family:Playfair Display, serif; 
+  
+  margin-top: -10px;
+  
+
+}
+.section1 ul{
+  list-style-type:none;
+ 
+
+
+
+}
+.section1 a{
+  text-decoration: none;
+}
+.icons{
+padding:10px 10px;
+margin-top: -50px;
+margin-left: -20px;
+
+}
+.section2{
+  margin-left: 100px;
+  margin-top: -10px;
+}
+.section2{
+  font-size: 25px;
+  font-family: Playfair Display, serif; 
+  font-weight: 900px;
+
+} 
+.section3{
+  margin-left: 100px;
+}
+.section3 {
+  font-size: 25px;
+  margin-top: -10px;
+  font-family:Playfair Display, serif;  
+}
+.section3 h5{
+  font-size: 10px;
+ 
+}
+.section3 ul{
+  list-style-type: none;
+ 
+}
+.section3 a{
+  text-decoration: none;
+  border: none;
+}
+
+.secrion3 ul li a{
+  margin-top: 20px;
+
+}
+.section3 ul li a{
+  display: flex;
+  width: 10px;
+  height: 10px;
+
+} 
+.logo{
+  width: 20px;
+  height: 20px;
+  margin-left: -30px;
+  margin-top: -25px;
+  padding:25px 25px;
+  font-size: 20px;
+
+}
+.section4{
+  margin-left: 200px;
+  font-size: 25px;
+  margin-top: -10px;
+  font-family:Playfair Display, serif; 
+}
+.section4 h6{
+  border-bottom: 1px solid goldenrod;
+  line-height: 3.6;
+}
+.email{
+  border:1px solid goldenrod;
+  background-color: black;
+  font-weight: 400;
+  color:white;
+  border-radius: 0;
+}
+.email{
+  padding:10px 20px;
+  padding-left: 50px;
+  
+}
+.sub{
+  background-color:  goldenrod;
+  padding:10px 35px;
+  margin-right: 20px;
+  border: none;
+}
+.feedback h6{
+  font-family: Playfair Display; 
+  font-size: 15px; 
+  border-bottom: none;
+}
+.feed{
+  background-color: goldenrod;
+  padding:10px 35px;
+  border: none;
+}
+.copy h6{
+  text-decoration: none;
+}

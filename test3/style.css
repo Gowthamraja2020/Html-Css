@@ -1,0 +1,260 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,700&display=swap');
+
+*body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.navbar{
+ 
+    background-color:#D3D3D3;
+    overflow: hidden;
+       padding: 10px;;
+       width: 100%;
+      
+    
+    
+      box-shadow:0 3px 6px #00000029;
+       display: flex;
+       top:0
+      }
+    .navbar a{
+    
+        padding:20px 25px;
+        color:black;
+        text-decoration: black;
+        font-weight:550;
+        font-size: 23px;
+        font-family: Playfair Display,serif;
+     
+     
+     
+     }
+     .navbar a:hover{
+         color:goldenrod;
+         border-bottom:5px solid whitesmoke; 
+
+     }
+     .navlist-right{
+        float:right;
+        width: 80%;
+        display:contents;
+        justify-content:flex-end;
+        align-items: baseline;
+        display: flex;
+        margin-top: 25px;
+        margin-right: 10px;
+        color:goldenrod;
+        size: 9x;
+        cursor: pointer;
+        
+        }
+         h6{
+            margin-right: 120px;
+        }
+        .submain{
+            float:right;
+            width: 80%;
+            display:contents;
+            justify-content:flex-end;
+            align-items: baseline;
+            display: flex;
+            margin-top: 25px;
+            margin-right: 10px;
+            color:goldenrod;
+            size: 9x;
+            cursor: pointer;
+           
+        }
+      .submain img{
+        border-radius: 50%;
+        }
+        .dropdown-items{
+            display: flex;
+        }
+        .container{
+            display: flex;
+            margin-top: 100px;
+            justify-content: center;
+            flex-wrap: nowrap;
+
+        
+        }
+        
+        .card{
+            background:white;
+            width: 400px;
+           
+            margin: 20px;
+            background-color:blue;
+            color:white;
+        
+            border-radius: 20px;
+            
+        }
+        .card-image{
+            
+            height: 170px;
+            margin-bottom: 15px;
+            background-size: cover;
+            border-radius: 25px 25px 0 0;
+        }
+        .img-1{
+            background-image: url('./img/img1.jpg');
+        }
+        .img-2{
+            background-image: url('./img/img2.jpg');
+        }
+        .img-3{
+            background-image: url('./img/pro1.jpg');
+        }
+        .img-4{
+            background-image: url('./img/img4.jpg');
+        }
+        .card h2{
+            text-align: center;
+            color:goldenrod;
+        }
+        .card button{
+            background-color: black;
+            color:white;
+            padding:15px 70px;
+            display:block;
+            text-align: center;
+            margin: 20px 40px;
+            border:0px;
+            
+        }
+      .card:hover{
+          background-color: rgb(62,62,62);
+          color:white;
+          cursor: pointer;
+          transform: scale(1.03);
+          transition:  all 1s ease;
+      }
+   
+     .content::after{
+         clear:both;
+     }
+    .submain .dropdown-items{
+        position:absolute;
+        top:75px;
+        right:450px;
+        background: #fff;
+        padding:40px 30px;
+        border-radius: 5px;
+        display: none;
+        
+        box-shadow:0 5px 6px #00000029;
+    }
+    .submain .dropdown-items .fa{
+        margin-right: 10px;
+
+    }
+    .submain .dropdown-items:before{
+        content: "";
+        position: absolute;
+        bottom: 100%;
+        left: 93%;
+        margin-left: -10px;
+        border-width: 10px;
+        border-style: solid;
+        border-color: transparent transparent white transparent;
+    }
+    .submain.active .dropdown-items{
+        display:block
+    }
+   
+     
+        
+   
+
+
+
+
+
+
+
+.main{
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         font-size: 35px;
+    
+     }
+     .dropdown-items .icon{
+         list-style: none;
+     }
+      .text{
+         font-family: sans-serif;
+    
+         font-family: "Audiowide", sans-serif;
+         font-size:20px;
+         color:black;
+       
+     }
+     .navlist{
+         position:relative;
+         display: inline-block;
+
+     }
+     
+    
+     .main i{
+         margin-left: 15px;
+         margin-right: 15px;
+     }
+     .Art-design{
+         display: flex;
+         width: 33.33%;
+     }
+     .art{
+        
+    box-shadow:0 5px 6px #00000029;
+         margin-top: 40px;
+         margin-left: 10px;
+         margin-right: 15px;
+     }
+     .art{
+         padding:10px 5px;
+         height: 380px;
+         width: 340px;
+     }
+     h1{
+         text-align: center;
+         color:goldenrod;
+         font-size: 25px;
+         font-family:Georgia, serif;
+     }
+     h1:hover{
+        
+         cursor: pointer;
+     }
+      button{
+         color:green;
+     }
+     .protect-design{
+      
+         display: flex;
+         width: 33.33%;
+     }
+     .pro{
+        box-shadow:0 5px 6px #00000029;
+         padding:20px 30px;
+         height: 380px;
+         width: 450px;
+     }
+    
+  
+     @media (min-width: 1025px) and (max-width: 1280px){
+         .navbar a{
+             float:none;
+             display: block;
+          
+             color:green;
+         }
+         
+         
+     }
